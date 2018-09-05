@@ -1,0 +1,10 @@
+C:\Users\abhilash.awasthi\source\repos\WebCoreApi\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\abhilash.awasthi\source\repos\WebCoreApi\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\abhilash.awasthi\source\repos\WebCoreApi\BusinessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\abhilash.awasthi\source\repos\WebCoreApi\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\abhilash.awasthi\source\repos\WebCoreApi\BusinessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\abhilash.awasthi\source\repos\WebCoreApi\BusinessLayer\obj\Debug\BusinessLayer.csprojAssemblyReference.cache
+C:\Users\abhilash.awasthi\source\repos\WebCoreApi\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\abhilash.awasthi\source\repos\WebCoreApi\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\abhilash.awasthi\source\repos\WebCoreApi\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\abhilash.awasthi\source\repos\WebCoreApi\BusinessLayer\obj\Debug\BusinessLayer.pdb
