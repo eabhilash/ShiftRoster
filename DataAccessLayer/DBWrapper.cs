@@ -19,14 +19,14 @@ namespace DataAccessLayer
             return _instance;
         }
 
-        public DataSet GetAllEmployeeData(string startDate, string endDate)
+        public DataSet GetAllEmployeeData(string startDate, string endDate, string filterName, string filterTime)
         {
             string connectionString = Properties.Settings.Default.ShiftRosterDB;
             SqlConnection con = new SqlConnection(connectionString);
             try
             {
                 con.Open();
-                SqlCommand cmd = new SqlCommand("exec [ShiftRoster].dbo.[uspGetEmployeeShift] '"+ startDate + "','"+ endDate + "'", con);
+                SqlCommand cmd = new SqlCommand("exec [ShiftRoster].dbo.[uspGetEmployeeShift] '"+ startDate + "','"+ endDate + "','" + filterName + "','" + filterTime + "'", con);
                 //cmd.Parameters.AddWithValue("@startDate", startDate);
                 //cmd.Parameters.AddWithValue("@endDate", endDate);
                 DataSet ds = ExecuteDataSet(cmd);

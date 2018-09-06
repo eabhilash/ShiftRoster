@@ -10,11 +10,11 @@ namespace BusinessLayer
 {
     public class LogicWrapper
     {
-        public DataSet GetAllEmployeeData(string startDate, string endDate)
+        public DataSet GetAllEmployeeData(string startDate, string endDate, string filterName, string filterTime)
         {
             var dbObj = DBWrapper.GetInstance();
             DataSet ds = new DataSet();
-            ds = dbObj.GetAllEmployeeData(startDate, endDate);
+            ds = dbObj.GetAllEmployeeData(startDate, endDate, filterName, filterTime);
             return ds;
         }
 

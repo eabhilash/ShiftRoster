@@ -12,10 +12,10 @@ namespace RosterApi.Controllers
 {
     public class EmployeeController : ApiController
     {
-        public DataSet GetAllEmployeeData(string startDate, string endDate)
+        public DataSet GetAllEmployeeData(string startDate, string endDate, string filterName, string filterTime)
         {
             LogicWrapper obj = new LogicWrapper();
-            return obj.GetAllEmployeeData(startDate, endDate);
+            return obj.GetAllEmployeeData(startDate, endDate, filterName, filterTime);
         }
 
         public async Task<DataSet> GetAllEmployeeDataAsync(string startDate, string endDate)
